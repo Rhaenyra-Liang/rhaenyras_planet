@@ -1,47 +1,33 @@
-import Image from "next/image";
-import { FaSquareFacebook, FaSquareGithub, FaLinkedin } from "react-icons/fa6";
 
 function AboutPage() {
   return (
     <div id="about" className="h-screen flex flex-col  bg-[#C29B9A]">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 max-w-7xl my-0 mx-auto">
         <div className="h-20"></div>
-        <div className="flex justify-center items-center">
-          <Image
-            src="/avatar.jpg"
-            alt="photo"
-            height={200}
-            width={200}
-            className="rounded-[2.5rem] border-[#822820]  border-[2.5px]"
-          />
-        </div>
-        <div className="flex text-4xl text-[#822820] justify-center items-center gap-8">
-          <a
-            href="https://www.facebook.com/profile.php?id=100001729574889"
-            target="_blank"
-          >
-            <FaSquareFacebook />
-          </a>
-          <a href="https://github.com/Rhaenyra-Liang" target="_blank">
-            <FaSquareGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rhaenyra-liang-28a170252/"
-            target="_blank"
-          >
-            <FaLinkedin />
-          </a>
-        </div>
       </div>
-      <div className="flex flex-col gap-4">
-        <p className="text-[#822820] text-4xl font-medium flex pt-10 justify-center">
+      <div className="flex flex-col gap-16 max-w-7xl my-0 mx-auto">
+        <h1 className="text-[#822820] text-4xl font-medium flex pt-10 justify-center">
           About me
-        </p>
-        <p>
-          Hi I am Rhaenyra Liang, a 23 years old self-taught Font-end developer
-          and Dancer living in Taiwan.
-        </p>
-        <p></p>
+        </h1>
+        <div className="w-full border border-red-900 flex flex-col justify-center">
+        <h2 className="text-white text-xl">
+        MY EDUCATION
+        <div className="border-b-2 max-w-[150px]"></div>
+        </h2>
+         <p className="pt-4 text-lg">National Taiwan University of Art The Dept. of Dance.</p>
+        </div>
+        <div className="w-full border border-red-900">
+        <h2 className="text-white text-xl">
+        MY EXPEREINCES
+        <div className="border-b-2 max-w-[150px]"></div>
+        </h2>
+         <li className="pt-4 text-lg">Frontend Developer - Now</li>
+         <p className=" text-gray-800/70">Jul 2023 - Now at Story Never Die Studio</p>
+         <li className="pt-4 text-lg">Frontend Developer Intern - Now</li>
+         <p className=" text-gray-800/70">Sep 2023 - Now at TVBS</p>
+         <li className="pt-4 text-lg">Software Developer Intern</li>
+         <p className=" text-gray-800/70">Feb 2023 - Sep 2023 at Dentall.TW </p>
+        </div>
       </div>
     </div>
   );

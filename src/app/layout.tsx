@@ -1,4 +1,4 @@
-import "./globals.css";
+import './globals.css';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -17,24 +17,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen  bg-[#F2E2DB] ">
+      <body className={`${inter.className} w-screen overflow-hidden h-[100dvh] bg-[#F2E2DB]`}>
         <main>
-          <nav className=" h-20 bg-[#db9d9d]/80  border-b border-gray-400 flex justify-end items-center pr-6 fixed w-screen">
-            <a href="#about" className=" text-[#822820] text-xl font-bold pr-6">
+          <nav className="bg-[#db9d9d]/80 border-b border-gray-400 w-screen flex justify-center fixed">
+            <div className="h-20 flex justify-end items-center gap-6 px-6 max-w-7xl">
+            <a href="#about" className=" text-[#822820] text-lg font-bold">
               About
             </a>
-            <a href="#work" className=" text-[#822820] text-xl font-bold pr-6">
-              Work
+            <a href="#work" className=" text-[#822820] text-lg font-bold">
+              Project
             </a>
-            <a href="#notes" className=" text-[#822820] text-xl font-bold pr-6">
-              Notes
+            <a href="#notes" className=" text-[#822820] text-lg font-bold">
+             Certificate
             </a>
             <a
               href="#contact"
-              className=" text-[#822820] text-xl font-bold pr-6"
+              className=" text-[#822820] text-lg font-bold"
             >
               Contact
             </a>
+            </div>
           </nav>
           {children}
         </main>

@@ -1,5 +1,5 @@
-function NotesPage() {
-  return <div id="notes" className="h-full"></div>;
+function CertificatePage() {
+  return <div id="Certificate" className="h-full"></div>;
 }
 
-export default NotesPage;
+export default CertificatePage;
