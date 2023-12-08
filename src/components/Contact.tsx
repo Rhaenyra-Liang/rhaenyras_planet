@@ -2,7 +2,7 @@ import { FaSquareFacebook, FaSquareGithub, FaLinkedin, FaRegEnvelope  } from "re
 function ContactPage() {
   return(
   <div id="contact" className="pb-20 max-w-7xl flex flex-col my-0 mx-auto gap-20">
-   <h1 className="my-0 mx-auto pt-20 text-[#822820] text-4xl font-medium">Let's Work Torgther......</h1>
+   <h1 className="my-0 mx-auto pt-20 text-[#822820] text-4xl font-medium">Let&apos;s Work Torgther......</h1>
      <div className="flex text-4xl text-[#822820] justify-center items-center gap-8">
           <a
             href="https://www.facebook.com/profile.php?id=100001729574889"
