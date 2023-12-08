@@ -20,7 +20,7 @@ export default function t() {
         <div className="h-[65dvh] flex flex-col gap-6 xs:gap-10"> 
           <div className="flex flex-col gap-4">
           <h1 className="text-[#822820] text-3xl  xs:text-4xl font-bold text-center w-full">
-            Welcome to Rhaenyra's Planet
+            Welcome to Rhaenyra&apos;s Planet
           </h1>
           <p className="text-[#808080] text-lg xs:text-xl font-normal text-center w-full">
             Hi I am Rhaenyra Liang, self-taught Font-end developer

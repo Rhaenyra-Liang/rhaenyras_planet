@@ -5,9 +5,9 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rhaenyra's Planet",
+  title: "Rhaenyra&apos;s Planet",
   description:
-    "Welcome to Rhaenyra's Planet! This web is Rhaenyra's official website, If you want to see more information or contact her,You can click to enter the website,I hope you enjoy yourself!",
+    "Welcome to Rhaenyra&apos;s Planet! This web is Rhaenyra&apos;s official website, If you want to see more information or contact her,You can click to enter the website,I hope you enjoy yourself!",
 };
 
 export default function RootLayout({
