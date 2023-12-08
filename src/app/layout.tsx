@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} w-screen overflow-hidden h-[100dvh] bg-[#F2E2DB]`}>
         <main>
-          <nav className="bg-[#db9d9d]/80 border-b border-gray-400 w-screen flex justify-center fixed">
+          <nav className="bg-[#db9d9d]/80 border-b border-gray-400 w-screen flex justify-center fixed z-20">
             <div className="h-20 flex justify-end items-center gap-6 px-6 max-w-7xl">
             <a href="#about" className=" text-[#822820] text-lg font-bold">
               About
@@ -27,7 +27,7 @@ export default function RootLayout({
             <a href="#work" className=" text-[#822820] text-lg font-bold">
               Project
             </a>
-            <a href="#notes" className=" text-[#822820] text-lg font-bold">
+            <a href="#certificate" className=" text-[#822820] text-lg font-bold">
              Certificate
             </a>
             <a
@@ -38,6 +38,7 @@ export default function RootLayout({
             </a>
             </div>
           </nav>
+          
           {children}
         </main>
       </body>
